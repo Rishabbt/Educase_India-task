@@ -52,7 +52,7 @@ export default function SignUp() {
             </span>
             <input
               type="text"
-              placeholder="Marry Doe"
+              placeholder="Enter your full name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm text-gray-700 "
@@ -65,7 +65,7 @@ export default function SignUp() {
             </span>
             <input
               type="tel"
-              placeholder="Marry Mishra"
+              placeholder="123-456-789"
               value={phoneNumber}
               onChange={(e) => setPhoneNumbere(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm text-gray-700"
@@ -78,7 +78,7 @@ export default function SignUp() {
             </span>
             <input
               type="email"
-              placeholder="Marry Mishra"
+              placeholder="@gmail.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm text-gray-700"
@@ -91,7 +91,7 @@ export default function SignUp() {
             </span>
             <input
               type="password"
-              placeholder="Marry Mishra"
+              placeholder="#&(^#@#%%$)"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm text-gray-700"
@@ -104,7 +104,7 @@ export default function SignUp() {
             </span>
             <input
               type="text"
-              placeholder="Marry Mishra"
+              placeholder="Educase India"
               className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm text-gray-700"
             />
           </div>
